@@ -1,0 +1,62 @@
+body{
+    background-color: #37cfa2;
+}
+
+h2{
+    font-size: 30px;
+    font-family: Georgia;
+    text-align: center;
+    /*- esquerda + direita, - cima + baixo, nublado, cor */
+    text-shadow: 2px 2px 5px #37cfa2;
+}
+
+.container{
+    height: 280px;
+    width: 100%;
+    margin-top: 15%;
+}
+
+.quadradoum{
+    background-color: white;
+    width: 270px;
+    height: 270px;
+    float: left;
+    margin-left: 3%;
+
+    border: 10px solid white;
+    border-radius: 5px;
+}
+
+.quadradodois{
+    background-color: white;
+    width: 270px;
+    height:270px;
+    margin-left: 200px;
+    float: left;
+
+    border: 10px solid white;
+    border-radius: 5px;
+}
+
+.quadradotres{
+    background-color: white;
+    width: 270px;
+    height:270px;
+    margin-left: 200px;
+    float: left;
+
+    border: 10px solid white;
+    border-radius: 5px;
+}
+
+.quadradoum:hover{
+    box-shadow: 10px 15px 2px 0px black; 
+}
+
+.quadradodois:hover{
+    box-shadow: 10px 15px 2px 0px black; 
+}
+
+.quadradotres:hover{
+    box-shadow: 10px 15px 2px 0px black; 
+}
