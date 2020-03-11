@@ -3,6 +3,7 @@ body{
 }
 
 h2{
+    /* Deixar o texto responsivo 2.2vw = 30px*/
     font-size: 30px;
     font-family: Georgia;
     text-align: center;
@@ -12,6 +13,7 @@ h2{
 
 p{
     text-align: justify;
+    /* Deixar o texto responsivo 1.45vw = 20px*/
     font-size: 20px;
     font-family: cursive; 
 }
